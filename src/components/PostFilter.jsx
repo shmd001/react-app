@@ -6,7 +6,7 @@ const PostFilter = ({filter, setFilter}) => {
     return (
         <div>
             <MyInput
-                value={filter.quasis}
+                value={filter.query}
                 onChange={e => setFilter({...filter, query: e.target.value})}
                 placeholder='Поиск...'
             />
